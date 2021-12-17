@@ -29,6 +29,8 @@ If you use google chrome's dev tools, it displays the stored items on the page. 
 
 Because the time I took the screenshots, I was unable to show the different background of the color blocks. I will add them the morning of 12/17 to show the differences.
 
+Below is a picutre of the work day planner at 9:15 am. The current time block is colored red and future time blocks are green. ![time-block-colors](./assets/images/colored-time.png)
+
 ## Credits
 1. [MDN](https://developer.mozilla.org/en-US/)
 2. [Kirupa](https://www.kirupa.com/)
