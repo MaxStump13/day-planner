@@ -74,9 +74,9 @@ function createRow() {
         else{
           task.text("");
         }
-        // keyboard event for the textarea, if enter or back is clicked not logged, otherwise it is added to the text of textarea element
+        // keyboard event for the textarea, if enter, shift, backspace is pressed they're not logged, otherwise it is added to the text of textarea element
         task.keyup(function(e){
-          if(e.keyCode ==13 || e.keyCode ==8){
+          if(e.keyCode ==13 || e.keyCode ==8 || e.keyCode ==16){
             e.preventDefault();
             return false;
           }
