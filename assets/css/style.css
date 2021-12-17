@@ -1,3 +1,4 @@
+/* prebuiult styling for body and textarea elements */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -14,7 +15,7 @@ textarea {
   height: 100%;
   width: 100%;
 }
-
+/* styling fo all prebuilt classes provided */
 .jumbotron {
   text-align: center;
   background-color: transparent;

@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- personal style sheet listed last so local changes overwrite other imported css files -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -26,15 +27,17 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <!-- add the moment stuff to this p using js -->
+      <!-- current time is displayed using this p elements ID-->
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- container used to build time blocks -->
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks are built here when js file is run -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- local js file is last so my changes overwrite other imported js files -->
     <script src ="./assets/js/script.js"></script>
   </body>
 </html>
