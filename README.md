@@ -1,7 +1,7 @@
 # day-planner
 
 ## Description
-The goal was to create a dynamic and editible work day scheduler. This scheudler can be used to track and plan for tasks throughout the day. The time blocks are color coded based on the current time, allowing the see what is upcoming, what they should work on, or what has passed. The columns are editible, so future events can be added/removed. Past and present activities are also able to be removed. The activities are stored locally, so if the page is refreshed or closed, the tasks are not lost. While working on this, I learned how to use some of the JQuery syntax. I also improved my understanding of traversing the DOM via the console. I also understand when and when not to use parameters for functions more. 
+The goal was to create a dynamic and editable work day scheduler. This scheudler can be used to track and plan for tasks throughout the day. The time blocks are color coded based on the current time, allowing the see what is upcoming, what they should work on, or what has passed. The columns are editible, so future events can be added/removed. Past and present activities are also able to be removed. The activities are stored locally, so if the page is refreshed or closed, the tasks are not lost. While working on this, I learned how to use some of the JQuery syntax. I also improved my understanding of traversing the DOM via the console. I also understand when and when not to use parameters for functions more. 
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
